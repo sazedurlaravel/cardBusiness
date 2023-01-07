@@ -1,0 +1,535 @@
+*{margin: o; padding: 0;}
+#coverLogo{
+    background-color: #C7C7C7;
+}
+.title{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: x-large;
+}
+.title:hover{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: x-large;
+}
+#profilePic{
+    width: 51%;
+    margin-top: -12%;
+    box-shadow: 2px 15px 15px #c9c5c5;
+    height: 126%;
+}
+#name{
+    text-align: center;
+}
+#contactSection{
+    margin-top: 5%;
+    background-color: #C7C7C7;
+}
+#contactBtn{
+    border-radius: 50px;
+}
+#contact{
+    background-color: white ;
+    border-radius: 50px;
+}
+#contact1{
+    background-color: white ;
+    border-radius: 50px;
+}
+#whiteSection1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#whiteSection3{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: -3%;
+}
+.icon{
+    width: 4%;
+    transition: 0.2s ease;
+}
+.icon:hover{
+    width: 3%;
+}
+.iconCell strong{
+    margin-left: 5%;
+    font-size: larger;
+}
+#table tr td{
+    text-align: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.socialIcon{
+    width: 9%;
+    padding: 4px;
+}
+#whiteSection2{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -3%;
+}
+#socialSection{
+    background-color: white;
+    border-radius: 50px;
+}
+.box{
+    width: fit-content;
+}
+.footerLogo{
+    width: 5%;
+    margin: 1%;
+}
+.backgroundLogo{
+    opacity: 0.2;
+    position: absolute; 
+    overflow: visible; 
+    margin-left:25%; 
+    margin-top: 5%;
+}
+
+
+
+ 
+
+  /* For large Tab */
+  @media only screen and (max-width: 1036px) {
+    #profilePic{
+        width: 70%;
+        margin-top: -12%;
+        box-shadow: 2px 15px 15px #c9c5c5;
+        height: 100%;
+    }
+    #whiteSection3{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: -8%;
+    }
+    
+    .backgroundLogo{
+        opacity: 0.2;
+        position: absolute; 
+        overflow: visible; 
+        margin-left:12%; 
+        margin-top: 8%;
+        width: 57%;
+    }
+    .title{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    .title:hover{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    #table{
+        margin-left: 0%;
+    }
+    .iconCell strong{
+        margin-left: 5%;
+        font-size: large;
+    }
+    .icon{
+        width: 7%;
+    }
+    .icon:hover{
+        width: 9%;
+    }
+    #whiteSection2{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -8%;
+    }
+    .socialIcon{
+        width: 11%;
+        padding: 4px;
+    }
+    .footerLogo{
+        width: 7%;
+        margin: 1%;
+    }
+  }
+
+   /* For small Tab */
+   @media only screen and (max-width: 767px) {
+    #profilePic{
+        width: 85%;
+        margin-top: -12%;
+        box-shadow: 2px 15px 15px #c9c5c5;
+        height: 87%;
+    }
+    #whiteSection3{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: -12%;
+    }
+    
+    .backgroundLogo{
+        opacity: 0.2;
+        position: absolute; 
+        overflow: visible; 
+        margin-left:12%; 
+        margin-top: 8%;
+        width: 57%;
+    }
+    .title{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    .title:hover{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    #table{
+        margin-left: 0%;
+    }
+    .iconCell strong{
+        margin-left: 5%;
+        font-size: medium;
+    }
+    .icon{
+        width: 7%;
+    }
+    .icon:hover{
+        width: 9%;
+    }
+    #whiteSection2{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -12%;
+    }
+    .socialIcon{
+        width: 14%;
+        padding: 4px;
+    }
+    .footerLogo{
+        width: 6%;
+        margin: 1%;
+    }
+  }
+  #contact1{
+    padding: 2rem!important;
+}
+#contact{
+        padding: 2rem!important;
+}
+
+  /* For mobile version */
+@media only screen and (max-width: 575px) {
+    .cover{
+        margin-bottom: 6%;
+    }
+    #profilePic{
+        width: 51%;
+        margin-top: -12%;
+        box-shadow: 2px 15px 15px #c9c5c5;
+        height: 145%;
+    }
+    #whiteSection3{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: -12%;
+    }
+    .backgroundLogo{
+        opacity: 0.2;
+        position: absolute; 
+        overflow: visible; 
+        margin-left:10%; 
+        margin-top: 8%;
+        width: 57%;
+    }
+    .title{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    .title:hover{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    #table{
+        margin-left: 0%;
+    }
+    .iconCell strong{
+        margin-left: 5%;
+        font-size: small;
+    }
+    .icon{
+        width: 6%;
+    }
+    .icon:hover{
+        width: 9%;
+    }
+    #whiteSection2{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -12%;
+    }
+    .socialIcon{
+        width: 14%;
+        padding: 4px;
+    }
+    .footerLogo{
+        width: 12%;
+        margin: 1%;
+    }
+  }
+  #contact1{
+    padding: 2rem!important;
+}
+#contact{
+        padding: 2rem!important;
+}
+
+  /* For Small mobile version */
+@media only screen and (max-width: 456px) {
+    .cover{
+        margin-bottom: 6%;
+    }
+    #profilePic{
+        width: 51%;
+        margin-top: -12%;
+        box-shadow: 2px 15px 15px #c9c5c5;
+        height: 145%;
+    }
+    #whiteSection3{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: -12%;
+    }
+    #contact1{
+        padding: 2rem!important;
+}
+    #contact{
+            padding: 2rem!important;
+    }
+    .backgroundLogo{
+        opacity: 0.2;
+        position: absolute; 
+        overflow: visible; 
+        margin-left:10%; 
+        margin-top: 8%;
+        width: 57%;
+    }
+    .title{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    .title:hover{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    #table{
+        margin-left: 0%;
+    }
+    .iconCell strong{
+        margin-left: 2%;
+        font-size: small;
+    }
+    .icon{
+        width: 10%;
+    }
+    .icon:hover{
+        width: 9%;
+    }
+    #whiteSection2{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -12%;
+    }
+    .socialIcon{
+        width: 14%;
+        padding: 4px;
+    }
+    .footerLogo{
+        width: 12%;
+        margin: 1%;
+    }
+  }
+
+  /* For X-Small mobile version */
+@media only screen and (max-width: 400px) {
+    .cover{
+        margin-bottom: 6%;
+    }
+    #profilePic{
+        width: 51%;
+        margin-top: -12%;
+        box-shadow: 2px 15px 15px #c9c5c5;
+        height: 145%;
+    }
+    #whiteSection3{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: -12%;
+    }
+    #contact1{
+        padding: 2rem!important;
+}
+    #contact{
+            padding: 2rem!important;
+    }
+    .backgroundLogo{
+        opacity: 0.2;
+        position: absolute; 
+        overflow: visible; 
+        margin-left:10%; 
+        margin-top: 8%;
+        width: 57%;
+    }
+    .id{
+        font-size: x-small;
+    }
+    .title{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    .title:hover{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    #table{
+        margin-left: 0%;
+    }
+    .iconCell strong{
+        margin-left: 2%;
+        font-size: x-small;
+    }
+    .icon{
+        width: 8%;
+    }
+    .icon:hover{
+        width: 9%;
+    }
+    #whiteSection2{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -12%;
+    }
+    .socialIcon{
+        width: 14%;
+        padding: 4px;
+    }
+    .footerLogo{
+        width: 12%;
+        margin: 1%;
+    }
+  }
+
+  /* Animation */
+  .animate-reveal {
+    opacity: 0;
+    -webkit-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+       -moz-animation: reveal 1s ease-in 1 normal forwards;
+         -o-animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+            animation: reveal 1s cubic-bezier(0, 1, 0.5, 1) 1 normal forwards;
+  }
+  
+  .animate-first {
+    -webkit-animation-delay: 0;
+       -moz-animation-delay: 0;
+         -o-animation-delay: 0;
+            animation-delay: 0;
+  }
+  .animate-second {
+    -webkit-animation-delay: 500ms;
+       -moz-animation-delay: 500ms;
+         -o-animation-delay: 500ms;
+            animation-delay: 500ms;
+  }
+  
+  .animate-third {
+    -webkit-animation-delay: 1s;
+       -moz-animation-delay: 1s;
+         -o-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  @-webkit-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @-moz-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @-o-keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes reveal {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(100%);
+         -moz-transform: translateY(100%);
+           -o-transform: translateY(100%);
+              transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+           -o-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
